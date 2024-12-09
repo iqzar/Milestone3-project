@@ -11,13 +11,13 @@ export default function Essential(){
               <div className="relative inline-block md:mb-0 mb-5">
               <Image  className='w-full h-auto'src={image1} width={320} height={540} alt="image1"/>
       <button className="absolute bottom-12 left-12 transform bg-white text-black px-4 py-1 text-[14px] font-semibold rounded-full hover:bg-opacity-80 focus:outline-none">
-        Men's
+        Mens
       </button>
     </div>
     <div className="relative inline-block md:mb-0 mb-5">
               <Image  className='w-full h-auto'src={image2} width={320} height={540} alt="image1"/>
               <button className="absolute bottom-12 left-12 transform bg-white text-black px-4 py-1 text-[14px] font-semibold rounded-full hover:bg-opacity-80 focus:outline-none">
-        Women's
+        Womens
       </button>
     </div>
     <div className="relative inline-block">

@@ -120,7 +120,7 @@ export default function Member(){
 </div>
            
       
-<p className='text-dark text-[12px] mt-4 text-center'>By creating an account, you agree to Nike's Privacy<br/> Policy and Terms of Use.</p>
+<p className='text-dark text-[12px] mt-4 text-center'>By creating an account, you agree to Nike Privacy<br/> Policy and Terms of Use.</p>
             <button
             type="submit"
             className="bg-black mt-5 w-full text-dark py-2 px-4 rounded focus:outline-none focus:shadow-outline"

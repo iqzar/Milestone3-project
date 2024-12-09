@@ -4,7 +4,7 @@ import hero from './public/hero3.jpg'
 export default function Sec3(){
     return(
         <main className="ml-10 mr-10 mt-20">
-            <h2 className='text-[22px] font-semibold mb-5'>Don't Miss</h2>
+            <h2 className='text-[22px] font-semibold mb-5'>Dont Miss</h2>
             <div className="flex justify-center">
             <Image src={hero} height={200} width={1000} alt="hero"/>
             </div>

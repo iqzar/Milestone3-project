@@ -1,6 +1,6 @@
 import Image from "next/image";
 import hero from './public/hero2.jpg';
-import { Fullscreen } from "lucide-react";
+
 
 export default function Hero() {
     return (

@@ -52,7 +52,7 @@ export default function Help(){
                     <FontAwesomeIcon icon={faEnvelope} className="h-[34px] w-[34px]  ml-32 mt-10" />
                     <div>
                         <p className="text-[12px] text-side leading-5 text-center mt-3">
-                        We'll reply within<br/>
+                        Well reply within<br/>
                         five business days
                         </p>
                     </div>

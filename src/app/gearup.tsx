@@ -26,7 +26,7 @@ export default function(){
             <div>
              
             <div className='flex justify-end gap-5 mt-20 ml-10 mr-10 mb-5'>
-            <p className='text-[15px]'>Shop Men's</p>
+            <p className='text-[15px]'>Shop Mens</p>
             <Arrows/>
             </div>
 
@@ -48,7 +48,7 @@ export default function(){
 
             <div>
             <div className='flex justify-end gap-5 mt-20 ml-10 mr-10 mb-5'>
-            <p className='text-[15px]'>Shop Women's</p>
+            <p className='text-[15px]'>Shop Womens</p>
             <Arrows/>
             </div>
             
