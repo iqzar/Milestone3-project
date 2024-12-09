@@ -5,7 +5,7 @@ import p7 from './public/image7.png'
 import p8 from './public/image8.png'
 import Arrows from "./arrows";
 
-export default function(){
+export default function Gearup(){
 
     const products = [
         { id: 1, image: p5, title: "Nike Dri-FIT ADV TechKnit Ultra", price: "₹ 3 895", detail: "Men's Short-Sleeve Running Top"},
