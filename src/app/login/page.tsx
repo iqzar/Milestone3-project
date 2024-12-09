@@ -46,7 +46,7 @@ export default function Login(){
 
             </div>
         
-        <p className='text-[12px] text-light text-center mb-5'>By logging in, you agree to Nike's Privacy Policy<br/> and Terms of Use.</p>
+        <p className='text-[12px] text-light text-center mb-5'>By logging in you agree to Nike Privacy Policy<br/> and Terms of Use.</p>
 
             <button
             type="submit"

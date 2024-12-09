@@ -14,9 +14,9 @@ export default function Left(){
 
     <div className="ml-10 text-side mt-8">
         <h2 className="text-[22px] text-side mb-5 font-semibold">WHAT PAYMENT OPTIONS CAN I USE ON NIKE ORDERS?</h2>
-        <p className="text-[12px] mb-5">We want to make buying your favourite Nike shoes and gear online fast and easy, and we accept the following payment options:</p>
-        <p className="text-[12px] ml-10 mb-5">Visa, Mastercard, Diners Club, Discover, American Express, Visa Electron, Maestro</p>
-        <p className="text-[12px] ml-10 mb-5">If you enter your PAN information at checkout, you'll be able to pay for your order with PayTM or a local credit or debit card.</p>
+        <p className="text-[12px] mb-5">We want to make buying your favourite Nike shoes and gear online fast and easy, and we accept the following payment options</p>
+        <p className="text-[12px] ml-10 mb-5">Visa Mastercard Diners Club Discover American Express Visa Electron Maestro</p>
+        <p className="text-[12px] ml-10 mb-5">If you enter your PAN information at checkout youll be able to pay for your order with PayTM or a local credit or debit card.</p>
         <p className="text-[12px] ml-10 mb-5">Apple Pay</p>
         <p className="text-[12px] mb-5">Nike Members can store multiple debit or credit cards in their profile for faster checkout. If you're not already a Member, join  <br/>us today.</p>
         </div>
@@ -28,15 +28,15 @@ export default function Left(){
 
         <div className="ml-10 mt-5 text-side text-[12px]">
             <p className="font-bold mb-2">Does my card need international purchases enabled?</p>
-            <p className="leading-8">Yes, we recommend asking your bank to enable international purchases on your card. You will be notified at checkout<br/> if international purchases need to be enabled.</p>
+            <p className="leading-8">Yes we recommend asking your bank to enable international purchases on your card. You will be notified at checkout<br/> if international purchases need to be enabled.</p>
         </div>
 
-        <p className="mb-3 ml-10">Please note, some banks may charge a small transaction fee for international orders.</p>
+        <p className="mb-3 ml-10">Please note some banks may charge a small transaction fee for international orders.</p>
     
         <div className="ml-10 mt-5 text-side text-[12px]">
             <p className="font-bold mb-2">Can I pay for my order with multiple methods?
         </p>
-        <p> No, payment for Nike orders can't be split between multiple payment methods.</p>
+        <p> No payment for Nike orders cant be split between multiple payment methods.</p>
         </div>
 
     
@@ -47,9 +47,9 @@ export default function Left(){
 
     
         <div className="ml-10 mt-5 text-side text-[12px] mb-5">
-            <p className="font-bold mb-2">Why don't I see Apple Pay as an option?</p>
-            <p className="leading-8">To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the latest<br/>
-             OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you'll need to use<br/> 
+            <p className="font-bold mb-2">Why dont I see Apple Pay as an option?</p>
+            <p className="leading-8">To see Apple Pay as an option in the Nike App or on Nike.com youll need to use a compatible Apple device running the latest<br/>
+             OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally youll need to use<br/> 
              Safari to use Apple Pay on Nike.com.</p>
         </div>
 
@@ -60,7 +60,7 @@ export default function Left(){
 
         <h2 className="ml-10 text-[12px] text-med mt-2 mb-5">RELATED</h2>
 
-        <h2 className="ml-20 text-[12px] text-side font-semibold mb-3">WHAT ARE NIKE'S DELIVERY OPTIONS?</h2>
+        <h2 className="ml-20 text-[12px] text-side font-semibold mb-3">WHAT ARE NIKE DELIVERY OPTIONS?</h2>
         <h2 className="ml-20 text-[12px] text-side font-semibold mb-3">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</h2>
         </div>
 

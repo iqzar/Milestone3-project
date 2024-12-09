@@ -27,10 +27,10 @@ export default function Links(){
                 <li className="text-[15px] text-med">Shirts & Tops</li>
                 </ul>
 
-                <ul className="text-[15px] leading-loose font-[Helvetica Neue]">Kid's
+                <ul className="text-[15px] leading-loose font-[Helvetica Neue]">Kids
                 <li className="text-[15px] text-med">Infant & Toddler Shoes</li>
-                <li className="text-[15px] text-med">Kid's Shoes</li>
-                <li className="text-[15px] text-med">Kid's Jordan Shoes</li>
+                <li className="text-[15px] text-med">Kids Shoes</li>
+                <li className="text-[15px] text-med">Kids Jordan Shoes</li>
                 <li className="text-[15px] text-med">Kids Basket ball Shoes</li>
                 </ul>
                 </div>
