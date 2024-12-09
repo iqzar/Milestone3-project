@@ -1,0 +1,75 @@
+import Image from "next/image";
+import p5 from './public/image5.png'
+import p6 from './public/image6.png'
+import p7 from './public/image7.png'
+import p8 from './public/image8.png'
+import Arrows from "./arrows";
+
+export default function(){
+
+    const products = [
+        { id: 1, image: p5, title: "Nike Dri-FIT ADV TechKnit Ultra", price: "₹ 3 895", detail: "Men's Short-Sleeve Running Top"},
+        { id: 2, image: p6, title: "Nike Dri-FIT Challenger", price: "₹ 2 495", detail: "Men's 18cm (approx.) 2-in-1 Versatile Shorts"},
+       
+        
+    ];
+
+    const productss = [
+        { id: 1, image: p7, title: "NIKE Air Max Pulse", price: "$13.995", detail: "Women's Shoes"},
+        { id: 2, image: p8, title: "NIKE Air Max Puls", price: "$13.995", detail: "Men's Shoes"},
+       
+        
+    ];
+
+    return(
+        <main className="flex flex-col md:flex-row justify-around">
+            <div>
+             
+            <div className='flex justify-end gap-5 mt-20 ml-10 mr-10 mb-5'>
+            <p className='text-[15px]'>Shop Men's</p>
+            <Arrows/>
+            </div>
+
+            <div className='flex md:flex-row flex-col space-x-6 md:ml-0 ml-20 md:mt-0 mt-4'>
+            {products.map((product) => (
+                    <div key={product.id}>
+                        
+            <Image src={product.image} height={200} width={200} alt='shoe1'/>
+            <div className='flex md:flex-row flex-col justify-between mt-5 text-[10px] text-black'>
+                <p className='font-semibold'>{product.title}</p>
+                <p>{product.price}</p>
+            </div>
+            <p className='text-[10px] text-med'>{product.detail}</p>
+            </div>
+            
+            ))}
+            </div>
+            </div>
+
+            <div>
+            <div className='flex justify-end gap-5 mt-20 ml-10 mr-10 mb-5'>
+            <p className='text-[15px]'>Shop Women's</p>
+            <Arrows/>
+            </div>
+            
+            <div className='flex md:flex-row flex-col space-x-6 ml-20 md:mt-0 mt-4'>
+            {productss.map((product) => (
+                    <div key={product.id}>
+                        
+            <Image src={product.image} height={200} width={200} alt='shoe1'/>
+            <div className='flex md:flex-row flex-col justify-between mt-5 text-[10px] text-black'>
+                <p className='font-semibold'>{product.title}</p>
+                <p>{product.price}</p>
+            </div>
+            <p className='text-[10px] text-med'>{product.detail}</p>
+            </div>
+            
+            ))}
+            </div>
+            </div>
+
+            
+
+        </main>
+    )
+}
