@@ -7,7 +7,7 @@ export default function Footer() {
         <main className="w-full bg-black mt-20">
             
             {/* Main Footer Content */}
-            <div className="flex flex-wrap md:justify-between md:space-x-10 pt-8 px-5">
+            <div className="flex flex-col md:flex-row flex-wrap md:justify-between md:space-x-8 pt-8 px-5">
                 
                 {/* Navigation Links */}
                 <div className="flex flex-wrap space-y-4 md:space-y-0">

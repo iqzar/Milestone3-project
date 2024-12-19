@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Search, Heart, ShoppingCart } from 'lucide-react';
+import { Search, Heart, ShoppingBag } from 'lucide-react';
 import logo from './public/logo.png'
 import Link from 'next/link';
 import { MenuIcon } from 'lucide-react';
@@ -13,11 +13,11 @@ import {
 export default function Header() {
     return (
         <main>
-            <div className='flex md:space-x-36 space-x-2 pt-[10px] pb-[10px] md:ml-10 md:mr-10'>
+            <div className='flex md:space-x-36 space-x-16 ml-3 pt-[10px] pb-[10px] md:ml-10 md:mr-10'>
             <div className="flex h-[60] space-x-5  md:space-x-64 ">
-                <Image src={logo} width={60} height={5} alt='logo'/>
+                <Link href={'./'}><Image src={logo} width={60} height={5} alt='logo'/></Link>
                 <ul className="md:block hidden md:mr-10 mt-1 font-semibold ">
-                    <li className="text-xs space-x-3 hover:border-b-2 border-black">
+                    <li className="text-xs space-x-3">
                     <Link className="hover:border-b-2" href={"/#"}>New & Featured</Link>
                     <Link className="hover:border-b-2" href="/">Mens</Link>
                     <Link className="hover:border-b-2" href="/">Womens</Link>
@@ -32,10 +32,12 @@ export default function Header() {
                 <SheetContent className="bg-white ml-5">
                 <ul className="bg-white ml-5">
                 <li className="flex flex-col font-poppins text-sm leading-loose">
-                    <Link href={'/'}>Home</Link>
-                    <Link href='/about'>About</Link>
-                    <Link href='#projects'>Projects</Link>
-                    <Link href={'/contact'}>Contact</Link>
+                    <Link href={'/'}>New & Featured</Link>
+                    <Link href='/about'>Mens</Link>
+                    <Link href='#projects'>Womens</Link>
+                    <Link href={'/contact'}>Kids</Link>
+                    <Link href={'/allproducts'}>Sale</Link>
+                    <Link href={'/contact'}>SNRKS</Link>
                 </li>
                 
                 </ul>
@@ -48,7 +50,8 @@ export default function Header() {
                        <p className="text-xs flex font-poppins text-pir md:pl-12">Search</p>
                     </div>
                     <Heart className="mt-1" size={16} />
-                    <ShoppingCart className="mt-1" size={16} />
+                    <Link href={'/cart'}><ShoppingBag className="mt-1" size={16} /></Link>
+                    
                 </div>
                 </div>
         </main>

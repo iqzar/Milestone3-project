@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Top() {
     return (
-        <main className="bg-sec h-[36px] w-full flex items-center justify-between md:pt-2 md:pl-5 md:pr-5 space-x-5 md:space-x-10">
+        <main className="bg-sec h-[36px] w-full flex items-center justify-between md:pl-5 md:pr-5 space-x-5 md:space-x-10">
             
             {/* Logo/Image Section */}
             <div>
