@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { useCart } from '../Context/cartcontext'; // Import the cart context
+import { useCart } from '../context/CartContext'; // Import the cart context
 import Image from 'next/image';
 import Link from 'next/link';
 import Top from '../top';

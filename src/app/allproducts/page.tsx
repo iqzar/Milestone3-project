@@ -7,7 +7,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import { useCart } from '../Context/cartcontext'; // Import the cart context
+import { useCart } from '../context/CartContext'; // Import the cart context
 import p1 from '../public/p1.jpg';
 import p2 from '../public/p2.jpg';
 import p3 from '../public/p3.jpg';
