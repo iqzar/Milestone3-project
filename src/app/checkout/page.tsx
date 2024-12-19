@@ -34,7 +34,7 @@ export default function Checkout(){
             <div className="flex justify-around ml-20 mr-20 mt-20">
                 <div>
                 <h2 className="text-side text-[21px] mt-5 mb-2 font-semibold">How would you like to get your order</h2>
-                <p className="text-[14px] text-med leading-5 w-[403px] h-[192px]">Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information. Learn More</p>
+                <p className="text-[14px] text-med leading-5 w-[403px] h-[192px]">Customs regulation for India require a copy of the recipients KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address please click the link for more information. Learn More</p>
                 
                 <div className="flex space-x-10 border-2 border-side px-6 py-4 rounded-xl">
                     <Package2 className="w-[20px] h-[20px]"/> 
@@ -84,7 +84,7 @@ export default function Checkout(){
                 <p className="text-[14px] text-med mt-1">Make this my preferred address</p>
                 </div>
 
-                <h2 className="text-side text-[21px] mt-5 mb-8 font-semibold">What's your contact information?</h2>
+                <h2 className="text-side text-[21px] mt-5 mb-8 font-semibold">Whats your contact information?</h2>
                 <div className="border-2 border-sec px-6 py-4 rounded mb-2 text-[16px] text-side">Email</div>
                 <p className="text-[11px] ml-4 text-med mb-6">A confirmation email will be sent after checkout.</p>
                 <div className="border-2 border-sec px-6 py-4 rounded mb-2 text-[16px] text-side">Phone Number</div>                
@@ -92,7 +92,7 @@ export default function Checkout(){
 
                 <h2 className="text-side text-[21px] mt-5 mb-8 font-semibold">What's your PAN?</h2>   
                 <div className="border-2 border-sec px-6 py-4 rounded mb-2 text-[16px] text-side">PAN</div>                
-                <p className="text-[11px] ml-4 text-med mb-6">Enter your PAN to enable payment with UPI, Net Banking or local<br/> card methods</p>
+                <p className="text-[11px] ml-4 text-med mb-6">Enter your PAN to enable payment with UPI Net Banking or local<br/> card methods</p>
                 <div className="flex space-x-5 mt-4">
                 <label className="mt-1">
                         <input className="bg-med text-med" type="checkbox" />
@@ -143,7 +143,7 @@ export default function Checkout(){
                 <div className="flex space-x-2 mt-3">
                     <Image src={image1} width={208} height={208} alt="image1"/>
                     <div className="text-[13px] font-semibold">
-                    <p className="w-[85px] h-[120px] text-[13px] font-semibold leading-6">Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</p>
+                    <p className="w-[85px] h-[120px] text-[13px] font-semibold leading-6">Nike Dri-FIT ADV TechKnit Ultra Mens Short-Sleeve Running Top</p>
                     <p className="text-dark">Qty 1</p>
                     <p className="text-dark">Size L</p>
                     <p className="text-dark">230900</p>
@@ -153,7 +153,7 @@ export default function Checkout(){
                 <div className="flex space-x-2 mt-5">
                     <Image src={image2} width={208} height={208} alt="image1"/>
                     <div className="text-[13px] font-semibold">
-                    <p className="w-[85px] h-[120px] text-[13px] font-semibold leading-6">Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</p>
+                    <p className="w-[85px] h-[120px] text-[13px] font-semibold leading-6">Nike Dri-FIT ADV TechKnit Ultra Mens Short-Sleeve Running Top</p>
                     <p className="text-dark">Qty 2</p>
                     <p className="text-dark">Size S</p>
                     <p className="text-dark">230900</p>

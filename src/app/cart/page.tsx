@@ -108,7 +108,7 @@ const Cart = () => {
       <Image className='ml-10 mt-5' src={pro} width={431} height={431} alt='pro'/>
       <div className='ml-10'>
             <h1 className="text-[15px] text-side mt-2 font-semibold leading-tight">Nike Air Force 1</h1>
-            <p className="text-[15px] text-pir">Men's Shoes</p>
+            <p className="text-[15px] text-pir">Mens Shoes</p>
             <h2 className="text-[15px] mt-2 mb-3 text-side font-bold">₹ 8 695.00</h2>
             </div>
             

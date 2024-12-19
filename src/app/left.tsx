@@ -23,13 +23,13 @@ export default function Left() {
                         Visa, Mastercard, Diners Club, Discover, American Express, Visa Electron, Maestro
                     </p>
                     <p className="text-sm ml-4 lg:ml-10 mb-5">
-                        If you enter your PAN information at checkout, you'll be able to pay for your order with PayTM or a
+                        If you enter your PAN information at checkout, youll be able to pay for your order with PayTM or a
                         local credit or debit card.
                     </p>
                     <p className="text-sm ml-4 lg:ml-10 mb-5">Apple Pay</p>
                     <p className="text-sm mb-5">
                         Nike Members can store multiple debit or credit cards in their profile for faster checkout. If
-                        you're not already a Member, join us today.
+                        youre not already a Member, join us today.
                     </p>
                 </div>
 
@@ -65,11 +65,11 @@ export default function Left() {
                 </div>
 
                 <div className="px-4 lg:px-10 mt-5 text-side text-sm mb-5">
-                    <p className="font-bold mb-2">Why don’t I see Apple Pay as an option?</p>
+                    <p className="font-bold mb-2">Why dont I see Apple Pay as an option?</p>
                     <p className="leading-6">
-                        To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple
+                        To see Apple Pay as an option in the Nike App or on Nike.com, youll need to use a compatible Apple
                         device running the latest OS, be signed in to your iCloud account, and have a supported card in your
-                        Wallet. Additionally, you'll need to use Safari to use Apple Pay on Nike.com.
+                        Wallet. Additionally, youll need to use Safari to use Apple Pay on Nike.com.
                     </p>
                 </div>
 
