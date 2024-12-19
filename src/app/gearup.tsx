@@ -25,12 +25,12 @@ export default function Gearup(){
         <main className="flex flex-col md:flex-row justify-around">
             <div>
              
-            <div className='flex justify-end gap-5 mt-20 ml-10 mr-10 mb-5'>
+            <div className='flex justify-end gap-5 mt-20 md:ml-10 md:mr-10 mr-20 mb-5'>
             <p className='text-[15px]'>Shop Mens</p>
             <Arrows/>
             </div>
 
-            <div className='flex md:flex-row flex-col space-x-6 md:ml-0 ml-20 md:mt-0 mt-4'>
+            <div className='flex md:flex-row flex-col space-y-8 md:ml-0 ml-20 md:mt-0 mt-4 md:mb-0'>
             {products.map((product) => (
                     <div key={product.id}>
                         
@@ -47,12 +47,12 @@ export default function Gearup(){
             </div>
 
             <div>
-            <div className='flex justify-end gap-5 mt-20 ml-10 mr-10 mb-5'>
+            <div className='flex justify-end gap-5 mt-20 ml-10 mr-20 mb-5'>
             <p className='text-[15px]'>Shop Womens</p>
             <Arrows/>
             </div>
             
-            <div className='flex md:flex-row flex-col space-x-6 ml-20 md:mt-0 mt-4'>
+            <div className='flex md:flex-row flex-col space-y-8 ml-20 md:mt-0 mt-4'>
             {productss.map((product) => (
                     <div key={product.id}>
                         

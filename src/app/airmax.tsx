@@ -26,7 +26,7 @@ export default function Airmax() {
             <Arrows/>
             </div>
             </div>
-            <div className='flex flex-col md:flex-row md:justify-evenly md:ml-0 ml-14'>
+            <div className='flex flex-col md:flex-row md:justify-evenly md:ml-0 ml-20 md:mt-0 mt-8'>
             {products.map((product) => (
                     <div key={product.id}>
                         
