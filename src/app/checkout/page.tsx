@@ -90,7 +90,7 @@ export default function Checkout(){
                 <div className="border-2 border-sec px-6 py-4 rounded mb-2 text-[16px] text-side">Phone Number</div>                
                 <p className="text-[11px] ml-4 text-med mb-6">A carrier might contact you to confirm delivery.</p>
 
-                <h2 className="text-side text-[21px] mt-5 mb-8 font-semibold">What's your PAN?</h2>   
+                <h2 className="text-side text-[21px] mt-5 mb-8 font-semibold">Whats your PAN?</h2>   
                 <div className="border-2 border-sec px-6 py-4 rounded mb-2 text-[16px] text-side">PAN</div>                
                 <p className="text-[11px] ml-4 text-med mb-6">Enter your PAN to enable payment with UPI Net Banking or local<br/> card methods</p>
                 <div className="flex space-x-5 mt-4">
