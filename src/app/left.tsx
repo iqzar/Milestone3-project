@@ -56,7 +56,7 @@ export default function Left() {
 
                 <div className="px-4 lg:px-10 mt-5 text-side text-sm">
                     <p className="font-bold mb-2">Can I pay for my order with multiple methods?</p>
-                    <p>No, payment for Nike orders can't be split between multiple payment methods.</p>
+                    <p>No, payment for Nike orders cant be split between multiple payment methods.</p>
                 </div>
 
                 <div className="px-4 lg:px-10 mt-5 text-side text-sm">

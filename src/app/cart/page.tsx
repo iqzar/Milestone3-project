@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import { useCart } from '../context/page'; // Import the cart context
 import Image from 'next/image';
 import Link from 'next/link';
 import Top from '../top';
@@ -9,9 +8,9 @@ import Footer from '../footer';
 import pro from '../public/pro.jpg'
 import { Heart, Trash } from 'lucide-react';
 import Arrows from '../arrows';
+import image from '../public/shoe1.jpg'
 
-const Cart = () => {
-  const { cart } = useCart(); // Access the cart data from the context
+export default function Cart(){
 
   return (
     <main>
@@ -38,16 +37,14 @@ const Cart = () => {
 
           {/* Bag Section */}
           <h2 className="text-side text-[22px] md:ml-15 ml-10 mt-5 font-semibold">Bag</h2>
-          {cart.length === 0 ? (
-            <p className="text-side text-[18px] mt-5">Your cart is empty!</p>
-          ) : (
+         
             <div className="flex flex-col gap-6 mt-10">
-              {cart.map((item, index) => (
-                <div key={index} className="flex space-x-8 border-b-2 border-sec pb-6">
+              
+                <div  className="flex space-x-8 border-b-2 border-sec pb-6">
                   <div>
                     <Image
-                      src={item.image} // Use the image property from the cart item
-                      alt={item.name}
+                      src={image} // Use the image property from the cart item
+                      alt={'image'}
                       width={150}
                       height={150}
                       className="w-[150px] h-[150px]"
@@ -55,11 +52,11 @@ const Cart = () => {
                   </div>
                   <div className="text-[15px] text-side flex-1">
                     <div className="flex justify-between">
-                      <h2 className="font-semibold mt-2">{item.name}</h2>
-                      <h2 className="font-semibold mt-2">MRP: {item.price}</h2>
+                      <h2 className="font-semibold mt-2"></h2>
+                      <h2 className="font-semibold mt-2">MRP: 345000</h2>
                     </div>
-                    <p className="text-pir">{item.detail}</p>
-                    <p className="text-pir">{item.color}</p>
+                    <p className="text-pir">Mens Shoes</p>
+                    <p className="text-pir">Black</p>
                     <div className="flex space-x-14">
                       <p className="text-pir">Size: L</p>
                       <p className="text-pir">Quantity: 1</p>
@@ -71,11 +68,11 @@ const Cart = () => {
                   </div>
                   
                 </div>
-              ))}
+            
               <h2 className='text-[21px] text-side font-semibold leading-tight'>Favourites</h2>
               <p className='text-[15px] text-side font-medium'>There are no items saved to your favourites.</p>
             </div>
-          )}
+        
         </div>
 
         {/* Right Section: Summary */}
@@ -119,4 +116,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+

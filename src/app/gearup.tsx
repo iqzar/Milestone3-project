@@ -30,7 +30,7 @@ export default function Gearup(){
             <Arrows/>
             </div>
 
-            <div className='flex md:flex-row flex-col space-y-8 md:ml-0 ml-20 md:mt-0 mt-4 md:mb-0'>
+            <div className='flex md:flex-row flex-col md:space-y-0 md:space-x-4 space-y-8 md:ml-0 ml-20 md:mt-0 mt-4 md:mb-0'>
             {products.map((product) => (
                     <div key={product.id}>
                         
@@ -52,7 +52,7 @@ export default function Gearup(){
             <Arrows/>
             </div>
             
-            <div className='flex md:flex-row flex-col space-y-8 ml-20 md:mt-0 mt-4'>
+            <div className='flex md:flex-row flex-col md:space-y-0 md:space-x-4 space-y-8 ml-20 md:mt-0 mt-4'>
             {productss.map((product) => (
                     <div key={product.id}>
                         
